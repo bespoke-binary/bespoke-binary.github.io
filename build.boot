@@ -2,8 +2,7 @@
 (def version "0.1.0-SNAPSHOT")
 
 (set-env! :source-paths #{"src" "content"}
-          :dependencies   '[[org.clojure/clojure "1.8.0" :scope "test"]
-                            [perun "0.4.2-SNAPSHOT" :scope "test"]])
+          :dependencies '[[perun "0.4.2-SNAPSHOT" :scope "test"]])
 
 (task-options!
  pom {:project     project
