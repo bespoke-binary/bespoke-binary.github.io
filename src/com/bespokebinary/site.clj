@@ -3,7 +3,9 @@
 
 (defn render [data]
   (page/html5
-   [:head]
+   [:head
+    (page/include-css "/css/normalize.css"
+                      "/css/app.css")]
    [:body
     [:div
      (-> data :entry :content)]]))

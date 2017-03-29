@@ -1,4 +1,5 @@
-(set-env! :source-paths #{"src" "content"}
+(set-env! :resource-paths #{"resources"}
+          :source-paths #{"src" "content"}
           :dependencies '[[perun "0.4.2-SNAPSHOT"     :scope "test"]
                           [hiccup "1.0.5"             :scope "test"]
                           [metosin/boot-alt-http "0.1.2" :scope "test"]])
