@@ -11,8 +11,9 @@ div.container {
 }
 
 div.main {
+  font: bold large serif;
   width: 50%;
   margin: 0 auto;
-  padding-left: 100px;
-  padding-top: 180px;
+  padding-left: 110px;
+  padding-top: 170px;
 }
