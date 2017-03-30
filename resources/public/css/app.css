@@ -1,5 +1,18 @@
 body {
-  color: #dcdbda;
-  background-image: url("/img/binary_stars.svg");
+  color: #b4b8b6;
   background-color: #0a1c2a;
+}
+
+div.container {
+  background-image: url("/img/binary_stars.svg");
+  width: 536px;
+  height: 558px;
+  margin: 0 auto;
+}
+
+div.main {
+  width: 50%;
+  margin: 0 auto;
+  padding-left: 100px;
+  padding-top: 180px;
 }

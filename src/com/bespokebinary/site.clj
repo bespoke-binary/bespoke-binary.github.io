@@ -7,5 +7,6 @@
     (page/include-css "/css/normalize.css"
                       "/css/app.css")]
    [:body
-    [:div
-     (-> data :entry :content)]]))
+    [:div.container
+     [:div.main
+      (-> data :entry :content)]]]))
